@@ -5,6 +5,7 @@ public class CabSnapshot {
     private final CabState cabState;
     private final String cityId;
 
+    // this class is for getting history
     public CabSnapshot(String cabId, CabState cabState, String cityId) {
         this.cabId = cabId;
         this.cabState = cabState;
